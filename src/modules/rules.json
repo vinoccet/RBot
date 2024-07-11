@@ -1,0 +1,25 @@
+{
+    "rules": [
+      {
+        "pattern": "Hello|Hi|Hey",
+        "responses": ["Hi there!", "Hello!", "Hey! How can I assist you?"]
+      },
+      {
+        "pattern": "What is Virgin Pulse?",
+        "responses": ["Virgin Pulse is a leading provider of employee well-being and engagement solutions.", "Virgin Pulse offers various well-being programs for employees."]
+      },
+      {
+        "pattern": "How do I earn points?",
+        "responses": ["You can earn points by participating in activities such as walking, exercising, and completing challenges."]
+      },
+      {
+        "pattern": "Thanks|Thank you",
+        "responses": ["You're welcome!", "No problem! If you have any more questions, feel free to ask."]
+      },
+      {
+        "pattern": ".*",
+        "responses": ["I'm sorry, I couldn't understand. Can you please rephrase your question?"]
+      }
+    ]
+  }
+  

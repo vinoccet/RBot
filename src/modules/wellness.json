@@ -1,0 +1,25 @@
+{
+    "rules": [
+      {
+        "pattern": "Hello|vanakkam|Hey",
+        "responses": ["Hi there!", "Hello!", "Hey! How can I assist you?"]
+      },
+      {
+        "pattern": "What is wellness?",
+        "responses": ["wellness is a leading provider of employee well-being and engagement solutions.", "wellness offers various well-being programs for employees."]
+      },
+      {
+        "pattern": "How do I earn incentives?",
+        "responses": ["You can earn incentives by participating in activities such as walking, exercising, and completing challenges."]
+      },
+      {
+        "pattern": "Thanks|Thank you|namaste",
+        "responses": ["You're welcome!", "No problem! If you have any more questions on wellness, feel free to ask."]
+      },
+      {
+        "pattern": ".*",
+        "responses": ["I'm sorry?","bye bye"]
+      }
+    ]
+  }
+  
